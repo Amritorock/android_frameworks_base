@@ -1907,6 +1907,9 @@
   <java-symbol type="id" name="splashscreen_icon_view" />
   <java-symbol type="id" name="splashscreen_branding_view" />
 
+  <!-- Whether to cancel fingerprint operation if not idle -->
+  <java-symbol type="bool" name="config_fpCancelIfNotIdle" />
+
   <!-- From services -->
   <java-symbol type="anim" name="screen_rotate_0_enter" />
   <java-symbol type="anim" name="screen_rotate_0_exit" />

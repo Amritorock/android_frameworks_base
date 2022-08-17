@@ -116,6 +116,9 @@
          any other apn from connecting until ims apn is connected-->
     <bool name="ImsConnectedDefaultValue">false</bool>
 
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">false</bool>
+
     <!-- Flag indicating whether the surface flinger is inefficient
          at performing a blur.  Used by parts of the UI to turn off
          the blur effect where it isn't worth the performance hit.
